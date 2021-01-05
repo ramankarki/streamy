@@ -4,7 +4,7 @@ import GoogleAuth from "./GoogleAuth";
 
 const Header = () => {
   return (
-    <header>
+    <header style={{ margin: "1rem 0" }}>
       <div className="ui secondary pointing menu">
         <Link to="/" className="item">
           Steamy
