@@ -38,7 +38,7 @@ class StreamForm extends React.Component {
           component={this.renderInput}
           label="Description"
         />
-        <button className="ui button primary">Create Stream</button>
+        <button className="ui button primary">{this.props.formType}</button>
       </form>
     );
   }
